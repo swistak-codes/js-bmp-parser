@@ -185,6 +185,8 @@ export async function drawBmp(byteArray) {
     // rysujemy aktualny wiersz
     drawRow(contents, i, i + (paddedWidth - 3), width, currentHeight);
     // opoznienie dla zaprezentowania jak rysowany jest plik BMP
-    await new Promise((res) => requestAnimationFrame(res));
+    if (currentHeight % 4 === 0) {
+      await new Promise((res) => requestAnimationFrame(res));
+    }
   }
 }

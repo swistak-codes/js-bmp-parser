@@ -3,6 +3,8 @@
 BMP Parser made for purposes of blog article at https://swistak.codes. You can check how it's working on the CodeSandbox: https://codesandbox.io/s/github/tswistak/js-bmp-parser  
 Comments are in Polish, since article's also in Polish.
 
+Article: https://swistak.codes/post/przetwarzanie-plikow-w-praktyce-obrazy-bmp/
+
 Parser plików BMP stworzony na potrzeby artykułu na https://swistak.codes. Mozesz sprawdzić działanie na CodeSandbox: https://codesandbox.io/s/github/tswistak/js-bmp-parser  
 Kod zawiera komentarze w języku polskim, ze względu na fakt, ze artykuł jest równiez po polsku.
 
